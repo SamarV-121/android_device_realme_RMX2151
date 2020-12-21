@@ -25,17 +25,17 @@ $(call inherit-product, device/realme/mt6785-common/mt6785.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_RMX2001
-PRODUCT_DEVICE := RMX2001
+PRODUCT_NAME := lineage_RMX2151
+PRODUCT_DEVICE := RMX2151
 PRODUCT_BRAND := realme
-PRODUCT_MODEL := Realme G90T Series
+PRODUCT_MODEL := Realme G95 Series
 PRODUCT_MANUFACTURER := realme
 
 # Build info
-BUILD_FINGERPRINT := "realme/RMX2001/RMX2001L1:10/QP1A.190711.020/1594211000:user/release-keys"
+BUILD_FINGERPRINT := "realme/RMX2151/RMX2151L1:10/QP1A.190711.020/1594211000:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=RMX2001 \
-    PRODUCT_NAME=RMX2001 \
-    PRIVATE_BUILD_DESC="full_oppo6785-user 10 QP1A.190711.020 0b36b6c4f9b3bf3b release-keys"
+    TARGET_DEVICE=RMX2151 \
+    PRODUCT_NAME=RMX2151 \
+    PRIVATE_BUILD_DESC="full_oppo6785-user-10-QP1A.190711.020-f98a4913a52475a1-release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo

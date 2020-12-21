@@ -14,13 +14,10 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/realme/RMX2001
+DEVICE_PATH := device/realme/RMX2151
 
 # Inherit from common tree
 -include device/realme/mt6785-common/BoardConfigCommon.mk
-
-# Assertation
-TARGET_OTA_ASSERT_DEVICE := RMX2001,wasabi
 
 # Kernel
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel

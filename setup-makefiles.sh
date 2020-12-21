@@ -18,7 +18,7 @@
 
 set -e
 
-export DEVICE=RMX2001
+export DEVICE=RMX2151
 export DEVICE_COMMON=mt6785-common
 export VENDOR=realme
 export DEVICE_BRINGUP_YEAR=2020
